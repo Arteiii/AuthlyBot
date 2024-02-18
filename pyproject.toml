@@ -1,13 +1,15 @@
 [tool.poetry]
 name = "authlybot"
 version = "0.1.0"
-description = ""
+description = "AuthlyBot is designed to work in conjunction with Authly for user management and licensing"
 authors = ["Ben <ben.arteii@proton.me>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+discord-py = "^2.3.2"
+httpx = "^0.26.0"
+python-dotenv = "^1.0.1"
 
 [build-system]
 requires = ["poetry-core"]
